@@ -79,7 +79,7 @@ super + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
 # preselect the ratio
-super + shift + {1-9}
+super + ctrl + shift + {1-9}
 	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
@@ -113,11 +113,18 @@ super + Return
 	kitty
 
 super + e
-  dolphin
+    Files 
     
-# DMENU SCRIPTS (Alt+Ctrl+Key)
+# APP LAUNCHER SCRIPTS
 
 # run program launcher
+super + space
+    rofi -show run
+
 super + d
-	dmenu_run
+    rofi -show drun
+
+super + F1
+    rofi -show window
+    
 # edit common config files
