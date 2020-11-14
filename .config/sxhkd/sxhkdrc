@@ -110,10 +110,10 @@ super + {Left,Down,Up,Right}
 
 # terminal emulator
 super + Return
-	kitty
+	alacritty
 
 super + e
-    Files 
+        xdg-open .
     
 # APP LAUNCHER SCRIPTS
 
@@ -126,5 +126,6 @@ super + d
 
 super + F1
     rofi -show window
-    
-# edit common config files
+
+Print
+    flameshot gui
