@@ -113,8 +113,9 @@ super + Return
 	alacritty
 
 super + e
-        xdg-open .
-    
+    thunar
+        # xdg-open .
+
 # APP LAUNCHER SCRIPTS
 
 # run program launcher

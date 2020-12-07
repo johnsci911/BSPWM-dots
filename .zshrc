@@ -11,7 +11,6 @@ export ZSH="/home/jkcachero/.oh-my-zsh"
 # ZSH_THEME="agnoster"
 ZSH_THEME="pi"
 
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -70,7 +69,7 @@ ZSH_THEME="pi"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git ssh-agent zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -139,9 +138,7 @@ alias paratest="composer dump-autoload;php artisan route:cache;vendor/bin/parate
 alias art="php artisan"
 alias cypress="yarn run cypress open"
 alias phpunit="vendor/bin/phpunit"
-alias source="source ~/.zshrc"
 alias v="nvim"
 
 export SPICETIFY_INSTALL="/home/jkcachero/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
-
