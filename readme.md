@@ -1,2 +1,4 @@
+
+
 # BSPWM-dots
-My personal BSPWM configurations
+### My personal BSPWM configurations
