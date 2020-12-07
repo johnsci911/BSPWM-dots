@@ -1,4 +1,4 @@
-![alt text](https://github.com/johnsci911/BSPWM-dots/blob/master/.config/wallpaper/1AkfyII.jpeg?raw=true "Screenshot")
+![alt text](https://github.com/johnsci911/BSPWM-dots/blob/master/Screenshot.png?raw=true "Screenshot")
 
 # BSPWM-dots
 
