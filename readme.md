@@ -3,3 +3,5 @@
 # BSPWM-dots
 
 My personal BSPWM configurations
+
+- Phocus theme is from https://github.com/JavaCafe01/phocus
