@@ -9,7 +9,7 @@ My personal BSPWM configurations
 ### Packages
 - bspwm
 - sxhkd
-- alacritty
+- alacritty/alacritty-ligatures
 - kitty
 - picom/compton
 - lightdm, lightdm-gtk-greeter
@@ -17,6 +17,7 @@ My personal BSPWM configurations
 - rofi
 - polybar
 - dunst
+- feh
 
 ### Todo
 - Theme consistency
