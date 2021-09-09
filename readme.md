@@ -11,7 +11,7 @@ My personal BSPWM configurations
 - sxhkd
 - alacritty/alacritty-ligatures
 - kitty
-- picom/compton
+- picom/compton `https://github.com/ibhagwan/picom`
 - lightdm, lightdm-gtk-greeter (`sudo systemctl enable lightdm`)
 - ranger
 - rofi
