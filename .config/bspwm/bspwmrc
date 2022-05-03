@@ -1,16 +1,23 @@
 #! /bin/sh
 
 # AutoStart
+lxsession &
 sxhkd &
 ~/.config/polybar/default/launch.sh &
 picom --config ~/.config/compton/compton.conf &
 # dwall -s forest &
-feh --bg-scale ~/.config/wallpaper/1AkfyII.jpeg
+feh --bg-fill ~/Pictures/wallpaper/photo-1509023464722-18d996393ca8.jpeg
 
-bspc monitor -d I II III IV V
+# Command to find monitor ID - xrandr -q | Might be using autorandr
+if [[ $(xrandr -q | grep 'DVI-D-0 connected') ]]; then
+  xrandr --output HDMI-A-0 --primary --right-of DVI-D-0
+fi
+
+bspc monitor DVI-D-0 -d 1 2 3 4 5 6 7 8 9 10
+bspc monitor HDMI-A-0 -d 11 12 13 14 15 16 17 18 19 20
 
 bspc config border_width          1
-bspc config window_gap            5
+bspc config window_gap            7
 
 bspc config split_ratio           0.50
 bspc config borderless_monocle    true
@@ -23,3 +30,6 @@ bspc config focused_border_color "#$color9"
 bspc config presel_feedback_color "#$color1"
 
 xsetroot -cursor_name left_ptr &
+
+# To support other applications that don't work on WMs
+wmname LG3D
