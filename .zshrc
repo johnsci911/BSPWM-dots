@@ -128,10 +128,8 @@ laranew() {
 alias zshconfig="sudo vim ~/.zshrc"
 alias ohmyzsh="sudo vim ~/.oh-my-zsh"
 
-PATH="$PATH:$HOME/.config/composer/vendor/bin"
-PATH="$PATH:/opt/yarn-1.22.4/bin"
-
 alias www="cd $HOME/Documents/www"
+alias composer7="/usr/bin/php7 /usr/local/bin/composer"
 alias code="/snap/bin/code"
 alias laratest="composer dump-autoload;php artisan route:cache;vendor/bin/phpunit"
 alias paratest="composer dump-autoload;php artisan route:cache;vendor/bin/paratest"
