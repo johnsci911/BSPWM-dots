@@ -137,6 +137,12 @@ alias art="php artisan"
 alias cypress="yarn run cypress open"
 alias phpunit="vendor/bin/phpunit"
 alias v="nvim"
+alias hosts="sudo nvim /etc/hosts"
+alias server-up="cd $HOME/Documents/www/laradock;docker-compose up -d nginx apache2 mysql phpmyadmin"
+alias server-build="cd $HOME/Documents/www/laradock;docker-compose up -d nginx apache2 mysql phpmyadmin --build"
+alias server-down="cd $HOME/Documents/www/laradock;docker-compose down"
+alias server-stop="cd $HOME/Documents/www/laradock;docker-compose stop"
 
 export SPICETIFY_INSTALL="/home/jkcachero/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
+export PATH=$PATH:~/.config/composer/vendor/bin
