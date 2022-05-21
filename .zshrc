@@ -142,6 +142,7 @@ alias server-up="cd $HOME/Documents/www/laradock;docker-compose up -d nginx apac
 alias server-build="cd $HOME/Documents/www/laradock;docker-compose up -d nginx apache2 mysql phpmyadmin --build"
 alias server-down="cd $HOME/Documents/www/laradock;docker-compose down"
 alias server-stop="cd $HOME/Documents/www/laradock;docker-compose stop"
+alias server-exec="cd $HOME/Documents/www/laradock;docker-compose exec --user laradock workspace zsh"
 alias laradock="cd $HOME/www/laradock"
 
 export SPICETIFY_INSTALL="/home/jkcachero/spicetify-cli"
