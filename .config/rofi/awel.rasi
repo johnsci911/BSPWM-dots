@@ -10,12 +10,11 @@
 
 configuration {
   show-icons: true;
-  icon-theme: "Gruvbox";
   location: 0;
   fake-transparency: false;
   hide-scrollbar: true;
   bw: 0;
-  terminal: "termite";
+  terminal: "alacritty";
   sidebar-mode: false;
 }
 
@@ -29,7 +28,7 @@ configuration {
 
 * {
   background-color: rgba(0, 0, 0, 0);
-  font: "OperatorMonoLig Nerd Font 10";
+  font: "FantasqueSansMono Nerd Font 10";
 }
 
 window {
@@ -99,6 +98,6 @@ prompt {
 entry {
   text-color: @txt;
   padding: 8 12 8 12;
-  font: "SF Pro Display 12";
+  font: "FantasqueSansMono Nerd Font 12";
   margin: 0 10em;
 }
