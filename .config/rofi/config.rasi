@@ -1,6 +1,7 @@
 configuration {
 	modi: "ssh,window,drun,run";
-	/* show-icons: true; */
+	show-icons: true;
 	/* icon-theme: "Gruvbox"; */
-	theme: "awel";
 }
+
+@theme "awel"
