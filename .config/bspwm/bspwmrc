@@ -5,6 +5,7 @@ lxsession &
 sxhkd &
 ~/.config/polybar/default/launch.sh &
 picom --config ~/.config/compton/compton.conf &
+dunst &
 # dwall -s forest &
 feh --bg-fill ~/Pictures/wallpapers/waterfalls.jpg
 
