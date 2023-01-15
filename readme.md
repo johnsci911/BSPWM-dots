@@ -19,5 +19,7 @@ My personal BSPWM configurations
 - dunst
 - feh
 
+#### For easy monitor setup use arandr
+
 ### Todo
 - Theme consistency
