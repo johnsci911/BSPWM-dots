@@ -11,7 +11,7 @@ polybar base -c $(dirname $0)/config.ini &
 polybar center -c $(dirname $0)/config.ini &
 polybar end -c $(dirname $0)/config.ini &
 
-if [[ $(xrandr -q | grep 'DVI-D-0 connected') ]]; then
+if [[ $(xrandr -q | grep 'HDMI-A-0 connected') ]]; then
   polybar ext_base -c $(dirname $0)/config.ini &
   polybar ext_center -c $(dirname $0)/config.ini &
   polybar ext_end -c $(dirname $0)/config.ini &
