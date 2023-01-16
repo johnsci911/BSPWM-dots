@@ -6,13 +6,14 @@ sxhkd &
 ~/.config/polybar/default/launch.sh &
 picom --config ~/.config/compton/compton.conf &
 dunst &
-# dwall -s forest &
-feh --bg-fill ~/Documents/wallpaper/1AkfyII.jpg
 
 # Command to find monitor ID - xrandr -q | Might be using autorandr
 if [[ $(xrandr -q | grep 'HDMI-A-0 connected') ]]; then
   xrandr --output DisplayPort-0 --off --output DisplayPort-1 --off --output DisplayPort-2 --primary --mode 1920x1080 --pos 1080x472 --rotate normal --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate left --output DVI-D-0 --off
 fi
+
+# dwall -s forest &
+feh --bg-fill ~/Documents/wallpaper/1AkfyII.jpg
 
 # Get config from ~/.screenlayout/
 if [ -f /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 ] ; then
