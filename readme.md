@@ -18,6 +18,7 @@ My personal BSPWM configurations
 - polybar
 - dunst
 - feh
+- lxsession - for polkit
 
 #### For easy monitor setup use arandr
 
