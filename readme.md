@@ -12,9 +12,8 @@ My personal BSPWM configurations
 - alacritty/alacritty-ligatures
 - kitty
 - picom/compton `https://github.com/ibhagwan/picom`
-- lightdm, lightdm-gtk-greeter (`sudo systemctl enable lightdm`)
 - ranger
-- rofi
+- rofi, rofi-power-menu
 - polybar
 - dunst
 - feh
